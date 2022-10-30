@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+
+class More extends StatefulWidget {
+  const More({super.key});
+
+  @override
+  State<More> createState() => _MoreState();
+}
+
+class _MoreState extends State<More> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.black,
+      body: Center(
+        child: Text(
+          'more',
+          style: TextStyle(color: Colors.white, fontSize: 20),
+        ),
+      ),
+    );
+  }
+}
